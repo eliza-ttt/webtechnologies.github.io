@@ -1,0 +1,173 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans Mono";
+  color: #262626;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+span {
+  color: #666;
+  font-weight: 600;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 70em;
+  width: 100%;
+}
+
+.line {
+  width: 100%;
+  height: 0.7em;
+  border-top: 1px solid rgba(136, 136, 136, 0.5);
+  border-bottom: 1px solid rgba(136, 136, 136, 0.5);
+  margin: 7em 0;
+}
+
+/* -------------------header---------------------- */
+
+.header__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5em;
+}
+
+.header__content > p {
+  font-weight: 400;
+  margin: 2.5em 0 0 0;
+  font-size: 0.85em;
+  letter-spacing: 3px;
+}
+
+.header__content > h1 {
+  font-family: "Train One";
+  font-weight: 700;
+  color: #ed786a;
+  text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
+  font-size: 3em;
+  letter-spacing: 13px;
+}
+/* ----------------------------------------------- */
+/* ---------------------books--------------------- */
+
+.books__title {
+  text-align: center;
+  font-size: 1.65em;
+  font-weight: 400;
+  letter-spacing: 4px;
+  margin: 0 0 1.5em 0;
+  line-height: 1.75em;
+  text-transform: uppercase;
+}
+
+.books__row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.book__card {
+  width: 30%;
+}
+
+.book__card > h3,
+.book__card > p {
+  text-align: center;
+  padding-top: 1em;
+}
+
+.book__card > h3 {
+  font-weight: 600;
+  font-size: 1em;
+  letter-spacing: 2px;
+}
+
+.book__card > p {
+  font-weight: 300;
+  font-size: 0.9em;
+}
+
+.book__card > img {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+}
+/* ----------------------------------------------- */
+
+/* -----------------------banner------------------- */
+
+.banner {
+  background: url(./images/banner.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 25em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5em 0;
+}
+
+.banner > p {
+  font-size: 1.5em;
+  color: #fff;
+}
+/* ----------------------------------------------- */
+/* -------------------youtube--------------------- */
+
+.youtube {
+  padding-top: 5em;
+}
+
+.yotube_video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4em;
+}
+
+.youtube__title > h2 {
+  text-align: center;
+  font-size: 1.65em;
+  font-weight: 400;
+  letter-spacing: 4px;
+  margin: 0 0 1.5em 0;
+  line-height: 1.75em;
+  text-transform: uppercase;
+}
+
+.yotube_video > iframe {
+  width: 100%;
+  height: 600px;
+}
+
+/* ----------------------------------------------- */
+
+/* ----------------------footer------------------- */
+
+.footer {
+  background: #f0f0f0;
+  border-top: 1px solid rgba(136, 136, 136, 0.5);
+  padding: 5em;
+  margin-top: 10em;
+}
+
+.footer__content > ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1em 0;
+}
+
+.footer__copyright {
+  display: flex;
+  justify-content: center;
+  padding: 1em 0;
+}
+
+/* ----------------------------------------------- */
